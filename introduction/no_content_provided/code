@@ -10,7 +10,7 @@ public:
         : Book(t, a, 0) {}
 
     Book(const std::string& t)
-        : Book(t, "unknown", 0) {}
+        : Book(t, "Unknown", 0) {}
 
     void printInfo() {
         std::cout << "Title: " << title
